@@ -1,0 +1,114 @@
+ body {background-color: rgb(33, 48, 3);color: rgb(255, 255, 247);}
+
+ style
+  .center-text {
+    text-align: center;
+  }
+
+@font-face {
+  font-family: Garamond;
+  font-style: normal;
+  font-weight: 400;
+  src: url(AGaramondPro-Regular.otf);
+}
+
+@font-face {
+  font-family: Garamond;
+  font-style: italic;
+  font-weight: 400;
+  src: url(AGaramondPro-Italic.otf);
+}
+
+@font-face {
+  font-family: Garamond;
+  font-style: normal;
+  font-weight: 700;
+  src: url(AGaramondPro-Bold.otf);
+}
+
+@font-face {
+  font-family: Garamond;
+  font-style: italic;
+  font-weight: 700;
+  src: url(AGaramondPro-BoldItalic.otf);
+}
+
+
+a {
+  color: #b7dcff;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #976bff;
+  text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: 'Garamond', Verdana, Helvetica, serif;
+  font-size: 17px;
+}
+
+strong {
+  font-family: 'Garamond', Verdana, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+h2 {
+  margin: 0;
+  font-weight: bold;
+  font-family: 'Garamond', Verdana, Helvetica, sans-serif;
+  font-size: 23px;
+  text-decoration: underline 0.5px;
+}
+
+h3 {
+  margin: 0;
+  font-weight: bold;
+  font-family: 'Garamond', Verdana, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.papertitle {
+  font-family: 'Garamond', Verdana, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.name {
+  padding-top: 20px;
+  margin: 0;
+  font-family: 'Garamond', Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+}
+
+.one {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.two {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #ffffd0;
+}
